@@ -1,2 +1,4 @@
 # Unix-socket-API-for-rust
-my first repository。good luck to myself。
+この世界を愛してる
+LOVE THE　WORLD
+爱我中华！建设我们的国家。
