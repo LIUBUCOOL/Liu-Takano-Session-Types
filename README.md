@@ -1,4 +1,4 @@
-# Unix-socket-API
+# Internet domain socket and Unix domain socket
 
 
 
