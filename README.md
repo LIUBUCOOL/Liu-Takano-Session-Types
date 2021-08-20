@@ -1,4 +1,4 @@
-# Internet domain socket and Unix domain socket
+# Design and Implementation of Session Types-based TCP and Unix Domain Socket
 
 
 
