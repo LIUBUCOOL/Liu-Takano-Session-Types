@@ -1,0 +1,57 @@
+[package]
+name = "liu_takano_session_types"
+version = "0.1.0"
+authors = ["Liu and Takano"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+unix-socket = { path = "../unix-socket"}
+libc = "*"
+bincode = "1.1.4"
+serde = { version = "1.0.126", features = ["derive"] }
+serde_derive = "1.0.126"
+
+
+[dev-dependencies]
+compiletest_rs = { version = "0.6.0", features = ["stable"] }
+rand = "0.8.3"
+
+[profile.release]
+debug = true
+opt-level = 3
+lto = true
+
+
+[[example]]
+name = "unix_app1"
+path = "examples/unix_app1.rs"
+
+[[example]]
+name = "unix_app2"
+path = "examples/unix_app2.rs"
+
+[[example]]
+name = "tcp_atm_sessiontyped"
+path = "examples/tcp_atm_sessiontyped.rs"
+
+[[example]]
+name = "tcp_client_sessiontyped"
+path = "examples/tcp_client_sessiontyped.rs"
+
+[[example]]
+name = "addoreven_sessiontyped"
+path = "examples/addoreven_sessiontyped.rs"
+
+[[example]]
+name = "addoreven"
+path = "examples/addoreven.rs"
+
+[[example]]
+name = "atm_with_idverif"
+path = "examples/atm_with_idverif.rs"
+
+[[example]]
+name = "atm_with_idverif_v2"
+path = "examples/atm_with_idverif_v2.rs"

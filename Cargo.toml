@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+	"liu_takano_session_types",
+	"unix-socket",
+]
+
